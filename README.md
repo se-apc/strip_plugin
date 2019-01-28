@@ -18,7 +18,7 @@ end
 
 OR
 
-Copy/Paste lib/strip_plugin.ex to your rel/plugins/strip_plugin.exs file.
+Copy/Paste lib/strip_plugin.ex to your rel/plugins/strip_plugin.exs file.  This
 
 Finally, add the plugin to your `rel/config.exs` file:
 
@@ -27,3 +27,7 @@ environment :prod do
   plugin StripPlugin
 end
 ```
+
+## License
+
+MIT. See the [`LICENSE.md`](https://github.com/bitwalker/distillery/blob/master/LICENSE.md) in this repository for more details.
