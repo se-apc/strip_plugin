@@ -28,6 +28,15 @@ environment :prod do
 end
 ```
 
+## ZIP Apps
+
+Erlang/Elixir supports storing all BEAM files of an app in a ZIP file.  This plugin supports doing this and can be enabled by
+adding this to `config/config.exs`
+
+```elixir
+config :strip_plugin, zip_apps: true
+```
+
 ## License
 
 MIT. See the [`LICENSE.md`](https://github.com/bitwalker/distillery/blob/master/LICENSE.md) in this repository for more details.

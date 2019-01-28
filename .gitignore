@@ -22,3 +22,6 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 strip_plugin-*.tar
 
+# This library should not be locked to any specific versions
+mix.lock
+
